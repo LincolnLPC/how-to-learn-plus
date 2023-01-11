@@ -1,3 +1,7 @@
+
+@import url(/styles/fonts.css);
+
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -73,7 +77,7 @@
   color: #2f80ed;
   position: absolute;
   top: 50px;
-  left: 72px;
+  left: 273px;
 
 }
 
@@ -238,7 +242,7 @@
 }
 
 .table{
-  width: 1100px;
+  max-width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -310,6 +314,59 @@
   max-height: 38px;
 }
 
+.footer{
+  min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: white;
+  background-color: #1f1f1f;
+}
+
+.footer__columns{
+  margin: 0 auto;
+  display: flex;
+  flex-basis: 711px;
+  justify-content: space-between;
+  max-width: 90%;
+ 
+}
+
+.footer__author{
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 18px;
+  margin-top: 100%;
+}
+
+
+
+.footer__column-links{
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 20px 0;
+  justify-content: space-between;
+}
+
+.footer__column-heading{
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__social-icon{
+  margin-right: 10px;
+}
+
+.footer__column-link{
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
 
 /*-----------------------------------------МОИ СТИЛИ-----------------------------------------*/
 

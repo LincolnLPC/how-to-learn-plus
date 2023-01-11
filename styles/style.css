@@ -86,6 +86,10 @@
   margin-left: 10px;
 }
 
+.header__link:hover .header__link__arrow{
+  margin-left: 12px;
+}
+
 .header__link__arrow::after{
   content: '';
   width: 15px;
@@ -165,17 +169,19 @@
 .techniques{
   padding: 0;
   width: 80%;
+  padding-top: 100px;
 }
 
 .techniques_center{
   margin: 0 auto;
   text-align: center;
+  
 }
 
 .section-title{
   width: 60%;
   margin-bottom: 20px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -187,6 +193,8 @@
   font-size: 24px;
   font-weight: normal;
 }
+
+
 
 .cards{
   width: 950px;
@@ -207,6 +215,10 @@
   margin: 60px 40px 43px 40px;
 }
 
+.digits{
+  padding-top: 100px;
+}
+
 
 .cards__item:not(:nth-child(3)){
   margin-right: 100px;
@@ -225,7 +237,69 @@
   font-weight: normal;
 }
 
+.table{
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.digits__table{
+  padding-top: 60px;
+}
+
+.table__sell{
+  text-align: start;
+  width: 250px;
+  margin-bottom: 60px;
+}
+
+.table__heading{
+  margin-bottom: 20px;
+}
+.table__text:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.section-subtitle_margin{
+  margin-bottom: 100px;
+}
+
+.kaufman{
+  padding-top: 90px;
+  background-color: #1f1f1f;
+}
+
+
+.section-title_theme-dark{
+  color: white;
+}
+
+.section-subtitle_theme-dark{
+  color: white;
+  margin: 0 auto;
+}
+
+.cards__title_theme-dark{
+  color: white;
+}
+.cards__description_theme-dark{
+  color: white;
+  margin: 0;
+}
+.table_theme-dark{
+  padding: 80px;
+}
+
+.table__sell_theme-dark{
+  width: 200px;
+  margin-bottom: 80px;
+}
+
 
 /*-----------------------------------------МОИ СТИЛИ-----------------------------------------*/
+
+/*----------------------------------------Keyframes------------------------------------------*/
 
 

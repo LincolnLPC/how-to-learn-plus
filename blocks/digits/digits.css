@@ -1,0 +1,29 @@
+.digits{
+    padding-top: 100px;
+  }
+  
+  
+  .cards__item:not(:nth-child(3)){
+    margin-right: 100px;
+  }
+  
+  .cards__title{
+    margin-bottom: 16px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .cards__description{
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .digits__table{
+    padding-top: 60px;
+  }
+  
+  .section-subtitle_margin{
+    margin-bottom: 100px;
+  }

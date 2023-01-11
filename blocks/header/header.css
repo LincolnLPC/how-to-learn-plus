@@ -1,0 +1,92 @@
+.logo_place_header{
+    position: absolute;
+    top: 30px;
+    left: 64px;
+  }
+  
+  .header__title{
+    width: 730px;
+    margin-left: 64px;
+    font-weight: 600;
+    font-size: 102px;
+    line-height: 96px;
+    z-index: 2;
+  }
+  
+  .header__subtitle{
+    z-index: 2;
+    position: absolute;
+    left: 64px;
+    bottom: 30px;
+    width: 388px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+  
+  .header__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #2f80ed;
+    position: absolute;
+    top: 50px;
+    left: 273px;
+  
+  }
+  
+  .header__link__arrow{
+    position: relative;
+    width: 25px;
+    height: 2px;
+    background-color: #2f80ed;
+    border-radius: 100px;
+    margin-left: 10px;
+  }
+  
+  .header__link:hover .header__link__arrow{
+    margin-left: 12px;
+  }
+  
+  .header__link__arrow::after{
+    content: '';
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    left: 13px;
+    transform: rotate(45deg);
+    background-color: #2f80ed;
+    border-radius: 100px;
+    bottom: 5px;
+  }
+  
+  .header__link__arrow::before{
+    content: '';
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    left: 13px;
+    transform: rotate(-45deg);
+    background-color: #2f80ed;
+    border-radius: 100px;
+    top: 5px;
+  }
+  
+  .header__main-illustration{
+    height: 608px;
+    width: 765px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .header__square-pic{
+    position: absolute;
+    top: 64px;
+    right: 0;
+    height: 568px;
+    width: 568px;
+    background-color: #2f80ed;
+    z-index: 0;
+  }

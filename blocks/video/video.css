@@ -1,0 +1,13 @@
+.video{
+    padding-top: 140px;
+}
+.video__iframes{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: -40px;
+}
+
+.video__iframe:not(:last-child){
+    margin-right: 20px;
+}

@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'inter';
-    src: url(/fonts/Inter-Medium.otf);
+    src: url(/vendor/fonts/Inter-Medium.otf);
 }
 @font-face {
     font-family: 'inter';
-    src: url(/fonts/Inter-Italic.otf);
+    src: url(/vendor/fonts/Inter-Italic.otf);
     font-style: italic;
 }
 @font-face {
-    src: url(/fonts/Inter-Bold.otf);
+    src: url(/vendor/fonts/Inter-Bold.otf);
     font-family: 'inter';
     font-weight: 600;
 }
 @font-face {
-    src: url(/fonts/Inter-BoldItalic.otf);
+    src: url(/vendor/fonts/Inter-BoldItalic.otf);
     font-family: 'inter';
     font-style: italic;
     font-weight: 600;

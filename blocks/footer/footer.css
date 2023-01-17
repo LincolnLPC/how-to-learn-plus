@@ -26,6 +26,7 @@
   
   
   .footer__column-links{
+    padding: 0;
     display: flex;
     flex-direction: column;
     margin: 16px 0 20px 0;
@@ -50,4 +51,8 @@
     display: flex;
     text-decoration: none;
     color: white;
+  }
+
+  .footer-lists{
+    list-style-type: none;
   }

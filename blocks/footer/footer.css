@@ -56,3 +56,7 @@
   .footer-lists{
     list-style-type: none;
   }
+
+  .footer__column-link:hover{
+    color:  #2f80ed;
+  }

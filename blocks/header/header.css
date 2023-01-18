@@ -3,7 +3,6 @@
 
 
 
-
 .logo_place_header{
     position: absolute;
     top: 30px;
@@ -47,13 +46,24 @@
   .header__link{
     top: 50px;
     left: 273px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #2f80ed;
   
   }
-  
-  .header__link:hover .link__arrow{
-    left: 12px;
+
+  .header__link::after{
+    content: "\2192";
+    
   }
-   
+  
+  .header__link:hover{
+    color: #0c56b8;
+  }
+  
   .header__main-illustration{
     height: 608px;
     width: 765px;
@@ -73,3 +83,7 @@
     background-color: #2f80ed;
     z-index: 0;
   }
+
+  
+  
+  

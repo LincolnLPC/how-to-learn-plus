@@ -32,7 +32,22 @@
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #2f80ed;
 }
+
+  .feynman__link::after{
+    content: "\2192";
+    
+  }
+  
+  .feynman__link:hover{
+    color: #0c56b8;
+  }
 
 .feynman__link:hover .link__arrow{
     left: 12px;

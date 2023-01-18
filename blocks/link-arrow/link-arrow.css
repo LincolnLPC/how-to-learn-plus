@@ -1,0 +1,39 @@
+.main__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #2f80ed;
+    position: absolute;
+}
+.link__arrow{
+  position: relative;
+  width: 25px;
+  height: 2px;
+  background-color: #2f80ed;
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+.link__arrow::after{
+  content: '';
+  width: 15px;
+  height: 2px;
+  position: absolute;
+  left: 13px;
+  transform: rotate(45deg);
+  background-color: #2f80ed;
+  border-radius: 100px;
+  bottom: 5px;
+}
+
+.link__arrow::before{
+  content: '';
+  width: 15px;
+  height: 2px;
+  position: absolute;
+  left: 13px;
+  transform: rotate(-45deg);
+  background-color: #2f80ed;
+  border-radius: 100px;
+  top: 5px;
+}

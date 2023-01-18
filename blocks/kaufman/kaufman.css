@@ -1,6 +1,8 @@
 .kaufman{
+    position: relative;
     padding-top: 90px;
     background-color: #1f1f1f;
+    overflow: hidden;
   }
   .cards__title_theme-dark{
     color: white;
@@ -8,6 +10,24 @@
   .cards__description_theme-dark{
     color: white;
     margin: 0;
+  }
+
+  
+  .table{
+    position: relative;
+  }
+
+  .kaufman__triangle{
+    animation: rotate 20s linear infinite;
+    width: 877px;
+    position: absolute;
+    z-index: 0;
+    right: -210px;
+    top: 0;
+  }
+
+  .table__sell_theme-dark{
+    z-index: 2;
   }
   
   

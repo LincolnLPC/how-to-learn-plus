@@ -23,7 +23,10 @@
     font-weight: normal;
   }
   
-  
+  .two-columns__paragraph{
+    margin: 0;
+  }
+
   .two-columns__paragraph span{
     font-weight: 600;
   }

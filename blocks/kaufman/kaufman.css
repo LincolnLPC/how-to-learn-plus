@@ -23,7 +23,7 @@
   }
 
   .kaufman__triangle{
-    background:  no-repeat center/cover url('/images/kaufman-triangle.svg');
+    background:  no-repeat center/cover url('../../images/kaufman-triangle.svg');
     animation: rotate 20s linear infinite;
     width: 877px;
     height: 877px;

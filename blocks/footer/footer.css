@@ -1,9 +1,14 @@
 .footer{
+    font-family: 'inter';
     min-height: 250px;
     padding-top: 60px;
     padding-bottom: 40px;
     color: white;
     background-color: #1f1f1f;
+  }
+
+  .footer__columns_content_social{
+    font-family: 'inter';
   }
   
   .footer__columns{

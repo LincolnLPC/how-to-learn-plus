@@ -25,6 +25,7 @@
   } */
 
   .section-subtitle{
+    z-index: 2;
     width: 60%;
     line-height: 34px;
     font-size: 24px;
@@ -39,17 +40,14 @@
     margin: 0 auto;
   }
   .table__sell{
+    margin: 0;
+    padding: 0;
     text-align: start;
     width: 250px;
     margin-bottom: 60px;
   }
   
-  .table__heading{
-    margin-bottom: 20px;
-  }
-  .table__text:not(:last-child){
-    margin-bottom: 20px;
-  }
+  
   
   .table_theme-dark{
     padding: 80px;

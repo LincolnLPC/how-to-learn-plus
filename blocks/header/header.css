@@ -10,6 +10,7 @@
   }
 
   .header {
+    font-family: 'inter';
     display: flex;
     align-items: center;
     position: relative;
@@ -74,7 +75,6 @@
   }
   
   .header__square-pic{
-    animation: rotate 20s linear infinite;
     position: absolute;
     top: 64px;
     right: 0;

@@ -6,6 +6,7 @@
   }
   .section-title{
     margin-bottom: 20px;
+    z-index: 2;
   }
   .cards__title_theme-dark{
     color: white;
@@ -13,6 +14,7 @@
   .cards__description_theme-dark{
     color: white;
     margin: 0;
+    margin-top: 20px;
   }
 
   
@@ -27,9 +29,13 @@
     /* margin-bottom: 100px; */
   }
 
+.table__heading{
+  margin: 0;
+  padding: 0;
+}
+
   .kaufman__triangle{
     background:  no-repeat center/cover url('../../images/kaufman-triangle.svg');
-    animation: rotate 20s linear infinite;
     width: 877px;
     height: 877px;
     position: absolute;

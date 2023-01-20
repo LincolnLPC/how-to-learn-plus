@@ -1,22 +1,7 @@
+
+@import url(./__iframes/__iframes.css);
+@import url(./__iframe/__iframes.css);
+
 .video{
     padding-top: 140px;
-}
-.video__iframes{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    margin-bottom: -40px;
-}
-
-.video__iframe{
-    width: 515px;
-    height:326px;
-    border: none;
-}
-
-.video__iframe:not(:last-child){
-    margin-right: 20px;
 }

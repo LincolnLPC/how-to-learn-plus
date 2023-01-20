@@ -1,0 +1,24 @@
+.khan__book-container .khan__buy-link{
+    position: static;
+    margin-left: 48px;
+    max-height: 20px;
+}
+
+
+.khan__buy-link{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #2f80ed;
+}
+
+  .khan__buy-link::after{
+    content: "\2192";
+    
+  }
+  
+  .khan__buy-link:hover{
+    color: #0c56b8;
+  }

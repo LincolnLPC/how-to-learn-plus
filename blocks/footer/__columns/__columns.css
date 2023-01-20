@@ -1,0 +1,19 @@
+@import url(./__column/__column.css);
+@import url(./__column-lists/__column-lists.css);
+@import url(./__column-link/__column-link.css);
+@import url(./__social-icon/__social-icon.css);
+
+
+
+.footer__columns_content_social{
+    font-family: 'inter';
+  }
+  
+  .footer__columns{
+    margin: 0 auto;
+    display: flex;
+    flex-basis: 711px;
+    justify-content: space-between;
+    max-width: 90%;
+   
+  }

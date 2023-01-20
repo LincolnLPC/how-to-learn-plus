@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'inter';
-    src: url(/vendor/fonts/Inter-Medium.otf);
+    src: url(../../vendor/fonts/Inter-Medium.otf);
     font-weight: normal;
 }
 
 @font-face {
-    src: url(/vendor/fonts/Inter-Bold.otf);
+    src: url(../../vendor/fonts/Inter-Bold.otf);
     font-family: 'inter';
     font-weight: 600;
 }

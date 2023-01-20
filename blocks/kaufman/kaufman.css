@@ -8,6 +8,35 @@
     margin-bottom: 20px;
     z-index: 2;
   }
+
+  .section-title{
+    width: 60%;
+    margin-bottom: 20px;
+    /* margin-top: 100px; */
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: 600;
+  }
+  
+  /* .section-subtitle_margin{
+    margin-bottom: 100px;
+  } */
+
+  .section-subtitle{
+    z-index: 2;
+    width: 60%;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  .section-title_theme_dark{
+    color: white;
+  }
+  
+  .section-subtitle_theme_dark{
+    color: white;
+    margin: 0 auto;
+  }
   .cards__title_theme_dark{
     color: white;
   }
@@ -46,6 +75,34 @@
 
   .table__sell_theme_dark{
     z-index: 2;
+  }
+
+  .table__sell{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    width: 250px;
+    margin-bottom: 60px;
+  }
+  
+  
+  
+  .table_theme_dark{
+    list-style-type: none;
+    padding: 80px;
+  }
+  
+  .table__sell_theme_dark{
+    color: white;
+    width: 200px;
+    margin-bottom: 80px;
+  }  
+
+  .table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-right: 0;
+    margin-top: 80px;
   }
 
 

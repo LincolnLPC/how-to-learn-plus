@@ -31,11 +31,11 @@
     font-size: 24px;
     font-weight: normal;
   }
-  .section-title_theme-dark{
+  .section-title_theme_dark{
     color: white;
   }
   
-  .section-subtitle_theme-dark{
+  .section-subtitle_theme_dark{
     color: white;
     margin: 0 auto;
   }
@@ -49,11 +49,13 @@
   
   
   
-  .table_theme-dark{
+  .table_theme_dark{
+    list-style-type: none;
     padding: 80px;
   }
   
-  .table__sell_theme-dark{
+  .table__sell_theme_dark{
+    color: white;
     width: 200px;
     margin-bottom: 80px;
   }  

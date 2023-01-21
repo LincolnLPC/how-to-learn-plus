@@ -48,10 +48,10 @@
 /* digits */
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/table/table.css);
-@import url(../blocks/digits/table/_theme_dark/_theme_dark.css);
+@import url(../blocks/digits/table/_theme_dark/table_theme_dark.css);
 @import url(../blocks/digits/table/__heading/__heading.css);
-@import url(../blocks/digits/table/__sell/__sell.css);
-@import url(../blocks/digits/table/__sell/_theme_dark/_theme_dark.css);
+@import url(../blocks/digits/table/__cell/__cell.css);
+@import url(../blocks/digits/table/__cell/_theme_dark/_theme_dark.css);
 @import url(../blocks/digits/table/__text/__text.css);
 
 /* khan */

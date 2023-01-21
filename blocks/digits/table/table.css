@@ -1,10 +1,12 @@
 
+/* Немного не понятен коментарий по поводу того что этот блок и его элементы расположенны не в своей папке!
+Просто по брифу как раз блок table относится к digits. Может я чего то упускаю?) */
 
 .table{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  padding-top: 60px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  /* padding-top: 60px; */
     margin: 0 auto;
     text-align: center;
     position: relative;

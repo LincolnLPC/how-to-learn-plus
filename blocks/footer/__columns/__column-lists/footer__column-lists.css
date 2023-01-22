@@ -1,3 +1,7 @@
 .footer__column-lists{
     list-style-type: none;
   }
+
+  .footer__column-lists:not(:first-child){
+    margin-top: 10px;
+  }

@@ -2,3 +2,10 @@
     max-width: 270px;
     max-height: 38px;
   }
+
+  .resources__link:hover .resources__img{
+    margin-top: -30px;
+    height: 68px;
+    width: 270px;
+    
+  }

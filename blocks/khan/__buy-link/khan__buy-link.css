@@ -1,17 +1,15 @@
-.khan__book-container .khan__buy-link{
-    position: static;
-    margin-left: 48px;
-    max-height: 20px;
-}
+
 
 
 .khan__buy-link{
-    position: absolute;
     text-align: center;
-    display: flex;
     align-items: center;
     text-decoration: none;
     color: #2f80ed;
+    margin-left: 48px;
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
 }
 
   .khan__buy-link::after{

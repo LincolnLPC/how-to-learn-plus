@@ -1,7 +1,10 @@
+/*Отметил коментами пустые файлы классов так и не придумал что в них вписать! Все стили вроде бы применил в обход этих классов если конечно ничего не упустил!*/
+
+
+
 /* general */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-@import url(../blocks/rotate/keyframes/keyframes.css);
 @import url(../blocks/rotate/rotate.css);
 
 /* page */
@@ -19,21 +22,19 @@
 
 /* discription */
 @import url(../blocks/discription/discription.css);
-@import url(../blocks/discription/two-columns/two-columns.css);
-@import url(../blocks/discription/two-columns/__brief/two-columns__brief.css);
-@import url(../blocks/discription/two-columns/__main-text/two-columns__main-text.css);
-@import url(../blocks/discription/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/discription/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 /* techniques */
 @import url(../blocks/techniques/techniques.css);
-@import url(../blocks/techniques/section-title/section-title.css);
-@import url(../blocks/techniques/section-subtitle/section-subtitle.css);
-@import url(../blocks/techniques/cards/cards.css);
-@import url(../blocks/techniques/cards/__title/cards__title.css);
-@import url(../blocks/techniques/cards/__item/cards__item.css);
-@import url(../blocks/techniques/cards/__image/cards__image.css);
-@import url(../blocks/techniques/cards/__description/cards__discription.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__description/cards__discription.css);
 
 /* video */
 @import url(../blocks/video/video.css);
@@ -51,12 +52,12 @@
 
 /* digits */
 @import url(../blocks/digits/digits.css);
-@import url(../blocks/digits/table/table.css);
-@import url(../blocks/digits/table/_theme_dark/table_theme_dark.css);
-@import url(../blocks/digits/table/__heading/table__heading.css);
-@import url(../blocks/digits/table/__cell/table__cell.css);
-@import url(../blocks/digits/table/__cell/_theme_dark/table__cell_theme_dark.css);
-@import url(../blocks/digits/table/__text//table__text.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/_theme_dark/table_theme_dark.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
+@import url(../blocks/table/__text//table__text.css);
 
 /* khan */
 @import url(../blocks/khan/khan.css);
@@ -94,8 +95,9 @@
 @import url(../blocks/footer/__columns/_content_social/footer__columns_content_social.css);
 @import url(../blocks/footer/__columns/__column/footer__column.css); 
 @import url(../blocks/footer/__columns/__column/_content_copyright/footer__column_content_copyright.css);
-@import url(../blocks/footer/__columns/__column/_content_info/footer__column_content_info.css);
-@import url(../blocks/footer/__columns/__column/_content_copyright/logo_place_footer/logo_place_footer.css); /*Пустой файл*/
+@import url(../blocks/footer/__columns/__column/_content_info/footer__column_content_info.css);  /*пустой файл*/
+@import url(../blocks/footer/__columns/__column/_content_social/footer__column_content_social.css);  /*пустой файл*/
+@import url(../blocks/logo_place_footer/logo_place_footer.css);
 @import url(../blocks/footer/__columns/__column/__author/footer__author.css);
 @import url(../blocks/footer/__columns/__column/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__columns/__column/__column-links/footer__column-links.css);

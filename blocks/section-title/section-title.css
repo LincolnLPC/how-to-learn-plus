@@ -1,5 +1,6 @@
 .section-title{
-  position: relative;
+    margin: 0 auto;
+    text-align: center;
     z-index: 2;
     width: 60%;
     margin-bottom: 20px;
